@@ -1,38 +1,4 @@
-.row-header{
-    margin:0px auto;
-    padding:0px auto;
-}
-
-.row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
-}
-
-.row-footer{
-    background-color: #AfAfAf;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: #7986CB ;
-    color:floralwhite;
-}
-
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
-}
-
-body{
-/*    padding:50px 0px 0px 0px;*/
-    z-index:0;
-}
+/*************** MENU ******************/
 
 .navbar-inverse {
      background: #303F9F;
@@ -65,3 +31,112 @@ body{
 .navbar {
     margin-bottom: 0px;
 }
+
+/*************** /MENU *****************/
+
+
+
+/*************** HEADER ******************/
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #7986CB ;
+    color:floralwhite;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+/*************** /HEADER *****************/
+
+
+
+
+
+/*************** CONTENT ******************/
+
+body{
+/*    padding:50px 0px 0px 0px;*/
+    z-index:0;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.section-title{
+    font-weight: 700;
+}
+
+.margin-top-28px{
+    margin-top: 28px;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+ul.dashed > li:before {
+    content: " - ";
+}
+ul.lower-roman {
+    list-style-type: lower-roman;
+}
+
+
+
+/*.ul.dashed {*/
+  /*list-style-type: none;*/
+/*}*/
+
+/*ul.dashed > li {*/
+  /*text-indent: -5px;*/
+/*}*/
+
+/*ul.dashed > li:before {*/
+  /*content: "-";*/
+  /*text-indent: -5px;*/
+/*}*/
+
+/*************** /CONTENT *****************/
+
+
+
+
+
+
+/*************** FOOTER ******************/
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+/*************** /FOOTER *****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
