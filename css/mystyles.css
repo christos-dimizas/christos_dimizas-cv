@@ -71,6 +71,7 @@ body{
 
 .section-title{
     font-weight: 700;
+    border-bottom: 2px solid #000000;
 }
 
 .margin-top-28px{
@@ -84,7 +85,7 @@ ul.dashed > li:before {
     content: " - ";
 }
 ul.lower-roman {
-    list-style-type: lower-roman;
+    list-style-type: circle;
 }
 
 
