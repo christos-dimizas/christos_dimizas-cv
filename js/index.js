@@ -17,6 +17,11 @@
 // LOAD WORK EXPERIENCE VIEW
 $( document ).ready(function(){
     $("#work-experience").load("cv-views/work_experience.html");
+    $("#education").load("cv-views/education.html");
+});
+
+$('.social i').hover(function(){
+    $(this).toggleClass('white-font');
 });
 
 // Smooth scrolling when clicking an anchor link
@@ -26,4 +31,6 @@ $('a').click(function(){
     }, 500);
     return false;
 });
+
+
 

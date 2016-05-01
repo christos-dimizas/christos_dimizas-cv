@@ -1,13 +1,13 @@
 <div class="row row-content">
     <h3 class="section-title">Work &amp; Academic Experience</h3>
     <!-- SCIFY NPO -->
-    <div class="row">
+    <div class="row animateblock left">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">November 2014 - Today</h4>
         </div>
         <div class="col-xs-12 col-sm-9">
-            <h2>Software Engineer at <a href="http://www.scify.gr/site/el/">SciFy N.P.O.</a></h2>
-            <div class="more-info">
+            <h2><strong>Software Engineer at <a href="http://www.scify.gr/site/el/">SciFy N.P.O.</a></strong></h2>
+            <div class="more-info ">
                 <ul>
                     <li><strong>Scrum development.</strong></li>
                     <li>Implementing <strong>mockups designs with HTML, CSS, JavaScript &amp; JQuery.</strong></li>
@@ -66,12 +66,12 @@
     </div>
 
     <!-- JAVA TUTORIAL -->
-    <div class="row">
+    <div class="row animateblock left">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">Aug. 2014 - Nov. 2014</h4>
         </div>
         <div class="col-xs-12 col-sm-9 ">
-            <h2>JAVA programming tutorials (self-study)</h2>
+            <h2><strong>JAVA programming tutorials</strong> (self-study)</h2>
             <div class="more-info">
                 <ul>
                     <li>MOOC e-course from University of San Jose (Udacity), lasting two
@@ -83,7 +83,7 @@
     </div>
 
     <!-- ALKYON E.E. -->
-    <div class="row">
+    <div class="row animateblock right">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">January 2014 - July 2014</h4>
         </div>
@@ -103,7 +103,7 @@
     </div>
 
     <!-- PRIVATE TUTOR -->
-    <div class="row">
+    <div class="row animateblock right">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">May 2013 - Nov. 2013 & <br> October 2011 - June 2012</h4>
         </div>
@@ -123,7 +123,7 @@
     </div>
 
     <!-- Computational Research (Out of campus) -->
-    <div class="row">
+    <div class="row animateblock left">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">March 2012 - Jan. 2013</h4>
         </div>
@@ -144,7 +144,7 @@
     </div>
 
     <!-- Post Graduate Research -->
-    <div class="row">
+    <div class="row animateblock left">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">April 2009 - August 2011</h4>
         </div>
@@ -166,7 +166,7 @@
     </div>
 
     <!-- Teacher (postgraduate student & undergraduate student) – Professor Assistant. -->
-    <div class="row">
+    <div class="row animateblock right">
         <div class="col-xs-12 col-sm-3">
             <h4 class="margin-top-28px" align="center">April 2009 - April 2011 & <br> Sept. 2006 – Feb. 2007</h4>
         </div>
@@ -196,18 +196,45 @@
 
 <script>
     $('#scify_projects').slideUp();
-    $('div.more-info').slideUp();
-    $('.col-xs-12.col-sm-3 h4').fadeOut();
+//    $('div.more-info').slideUp();
+//    $('.col-xs-12.col-sm-3 h4').fadeOut();
 //    $('.col-xs-12.col-sm-9 h2').addClass('border-bottom');
 
     $('#show_more').on('click', function(){
         $('#scify_projects').slideToggle();
     });
 
-    $('.col-xs-12.col-sm-9').hover(function(){
-        $(this).find('div.more-info').slideDown(500);
-        $(this).prev().find('h4').fadeIn();
-    });
+//    $('.col-xs-12.col-sm-9').hover(function(){
+//        $(this).find('div.more-info').slideDown(500);
+//        $(this).prev().find('h4').fadeIn();
+//    });
 
+    $(function(){
+        var $elems = $('.animateblock');
+        var winheight = $(window).height();
+        var fullheight = $(document).height();
+
+        $(window).scroll(function(){
+            animate_elems();
+        });
+
+        function animate_elems() {
+            wintop = $(window).scrollTop(); // calculate distance from top of window
+
+            // loop through each item to check when it animates
+            $elems.each(function(){
+                $elm = $(this);
+
+                if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+
+                topcoords = $elm.offset().top; // element's distance from top of page in pixels
+
+                if(wintop > (topcoords - (winheight*.75))) {
+                    // animate when top of the window is 3/4 above the element
+                    $elm.addClass('animated');
+                }
+            });
+        } // end animate_elems()
+    });
 
 </script>
