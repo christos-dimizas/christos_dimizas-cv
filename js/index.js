@@ -17,7 +17,8 @@
 // LOAD WORK EXPERIENCE VIEW
 $( document ).ready(function(){
     $("#work-experience").load("cv-views/work_experience.html");
-    $("#education").load("cv-views/education.html");
+    $("#education-coursework").load("cv-views/education-coursework.html");
+    $("#skills").load("cv-views/skills.html");
 });
 
 $('.social i').hover(function(){

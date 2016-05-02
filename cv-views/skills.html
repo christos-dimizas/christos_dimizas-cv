@@ -1,0 +1,88 @@
+<div class="row row-content">
+
+    <!-- TECHNICAL SKILLS -->
+    <div class="col-xs-12 col-sm-6 padding-L-R-30px animateblock right">
+        <h3 class="section-title">Technical Skills</h3>
+        <div id="technical_skills">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 ">
+                    <ul>
+                        <li><strong>Object Oriented Analysis & Design principles.</strong></li>
+                        <li><strong>Scrum</strong> (agile software development methodology), <strong>Git Software, Swing, SQL, HTML5, CSS3,
+                            JavaScript, PHP, JAVA, JQuery, Drupal, WordPress, Bootstrap framework, JIRA</strong>
+                            proprietary issue tracking .</li>
+                        <li><strong>Customer requirements Collection & specifications analysis.</strong></li>
+                        <li>Excellent knowledge of <strong>Eclipse, PHPStorm, Mathematica</strong>.</li>
+                        <li>Excellent knowledge of Microsoft (<strong>Word, Excel, PowerPoint</strong>).</li>
+                        <li>Familiar with (<strong>MatLab, Octave, AngularJS</strong>).</li>
+                        <li>Familiar with (<strong>Windows & Linux.</strong>).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADDITIONAL SKILLS -->
+    <div class="col-xs-12 col-sm-6 padding-L-R-30px animateblock left">
+        <h3 class="section-title">Additional Skills</h3>
+        <div id="additional_skills">
+            <div class="row padding-top-10px">
+                <div class="col-xs-12 col-sm-12 ">
+                    <ul>
+                        <li>Excellent Analytical Skills: Great at problem solving.</li>
+                        <li>Excellent Oral Presentation Skills.</li>
+                        <li>Excellent People Skills.</li>
+                        <li><strong>Team work</strong>: I have worked in various types of teams with colleagues during specific projects, to
+                            research teams, to postgraduate coursework groups and volunteer groups.</li>
+                        <li>During my graduate studies while I was a <strong>board member</strong> of the university voluntary blood
+                            donation group we organized a two days conference (summer of 2007) about blood donation in
+                            Heraklion of Crete.</li>
+                        <li><strong>Self-motivated</strong> and able to work without supervision.</li>
+                        <li>
+                            Foreign Languages :
+                            <ul>
+                                <li><strong>Greek</strong> (native language)</li>
+                                <li>
+                                    <strong>Fluent English</strong>
+                                    <br>
+                                    <strong>IELTS Band Score : 7.5</strong> (Listening:8.5, Reading:7, Writing:6, Speaking: 7.5)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        var $elems = $('.animateblock');
+        var winheight = $(window).height();
+        var fullheight = $(document).height();
+
+        $(window).scroll(function(){
+            animate_elems();
+        });
+
+        function animate_elems() {
+            wintop = $(window).scrollTop(); // calculate distance from top of window
+
+            // loop through each item to check when it animates
+            $elems.each(function(){
+                $elm = $(this);
+
+                if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+
+                topcoords = $elm.offset().top; // element's distance from top of page in pixels
+
+                if(wintop > (topcoords - (winheight*.75))) {
+                    // animate when top of the window is 3/4 above the element
+                    $elm.addClass('animated');
+                }
+            });
+        } // end animate_elems()
+    });
+
+</script>

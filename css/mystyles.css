@@ -1,6 +1,9 @@
 .white-font{
     color: #ffffff;
 }
+.grey-font{
+    color: rgb(109, 106, 106);
+}
 
 /*************** MENU ******************/
 
@@ -118,12 +121,7 @@
     position: relative;
     top: 0;
     left: 0;
-    background: url(../images/home-bg-img.jpg) top center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    /*background: url(../images/home-bg-img.jpg) top center no-repeat fixed;*/
     width: 100%;
     height: 100%;
 }
@@ -131,10 +129,6 @@
 /*************** /SECTION : HOME *****************/
 
 
-
-
-
-/*************** CONTENT ******************/
 
 html, body{
 /*    padding:50px 0px 0px 0px;*/
@@ -145,7 +139,6 @@ html, body{
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
     min-height:400px;
 }
 
@@ -171,21 +164,6 @@ ul.lower-roman {
 .border-bottom{
     border-bottom: 1px solid #000000;
 }
-
-
-
-/*.ul.dashed {*/
-  /*list-style-type: none;*/
-/*}*/
-
-/*ul.dashed > li {*/
-  /*text-indent: -5px;*/
-/*}*/
-
-/*ul.dashed > li:before {*/
-  /*content: "-";*/
-  /*text-indent: -5px;*/
-/*}*/
 
 
 /* animated elements */
@@ -277,6 +255,14 @@ ul.lower-roman {
 .animateblock.size img {
     max-width: 100%;
     height: auto;
+}
+
+.padding-L-R-30px{
+    padding: 0px 30px;
+}
+
+.padding-top-10px{
+    padding-top: 10px;
 }
 
 /*************** /CONTENT *****************/
