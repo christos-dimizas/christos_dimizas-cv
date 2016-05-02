@@ -2,27 +2,13 @@
  * Created by christos on 30/4/2016.
  */
 
-//$(document).ready(function() {
-//    $(document).scroll(function () {
-//        var scroll = $(this).scrollTop();
-//        var topDist = $("#nav").position();
-//        if (scroll > topDist.top) {
-//            $('nav').css({"position":"fixed","top":"0"});
-//        } else {
-//            $('nav').css({"position":"static","top":"auto"});
-//        }
-//    });
-//});
-
 // LOAD WORK EXPERIENCE VIEW
 $( document ).ready(function(){
     $("#work-experience").load("cv-views/work_experience.html");
     $("#education-coursework").load("cv-views/education-coursework.html");
     $("#skills").load("cv-views/skills.html");
-});
-
-$('.social i').hover(function(){
-    $(this).toggleClass('white-font');
+    $("#extra-info").load("cv-views/interests-achievements.html");
+    $("#contact").load("cv-views/contact.html");
 });
 
 // Smooth scrolling when clicking an anchor link
@@ -32,6 +18,26 @@ $('a').click(function(){
     }, 500);
     return false;
 });
+
+
+jQuery(document).ready(function() {
+    var offset = 250;
+    var duration = 300;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+
 
 
 

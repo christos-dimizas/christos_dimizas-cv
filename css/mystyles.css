@@ -4,11 +4,15 @@
 .grey-font{
     color: rgb(109, 106, 106);
 }
+h3{
+    color: #141414;
+    letter-spacing: 1px;
+}
 
 /*************** MENU ******************/
 
 .navbar-inverse {
-     background: #000000;
+     background: #141414;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -117,6 +121,9 @@
     font-size: 18px;
     line-height: 30px;
 }
+.social a:hover{
+    color: #ffffff;
+}
 .home-background {
     position: relative;
     top: 0;
@@ -126,12 +133,27 @@
     height: 100%;
 }
 
-/*************** /SECTION : HOME *****************/
+/*************** /CONTENT *****************/
 
+.back-to-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 100px;
+    border-radius: 50%;
+    border: none;
+}
+.arrow-icon{
+    font-size: 30px;
+    padding: 10px;
+    color: #7986CB;
+}
 
+.back-to-top i {
+    font-size: 60px;
+}
 
 html, body{
-/*    padding:50px 0px 0px 0px;*/
     z-index:0;
     height: 100%;
 }
@@ -143,7 +165,7 @@ html, body{
 }
 
 .section-title{
-    font-weight: 700;
+    font-weight: 600;
     border-bottom: 2px solid #000000;
 }
 
@@ -198,9 +220,9 @@ ul.lower-roman {
 
 .animateblock.top {
     display: block;
-    width: auto;
-    text-align: center;
-    margin-top: -25px;
+    /*width: auto;*/
+    /*text-align: center;*/
+    /*margin-top: -25px;*/
 }
 .animateblock.top.animated {
     margin-top: 0px;
@@ -208,9 +230,9 @@ ul.lower-roman {
 
 .animateblock.btm {
     display: block;
-    width: auto;
-    text-align: center;
-    margin-top: 25px;
+    /*width: auto;*/
+    /*text-align: center;*/
+    /*margin-top: 25px;*/
 }
 .animateblock.btm.animated {
     margin-top: 0;
@@ -265,6 +287,20 @@ ul.lower-roman {
     padding-top: 10px;
 }
 
+.info {
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+.info li {
+    margin-bottom: 10px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 36px;
+    list-style-type: none;
+}
+
+
 /*************** /CONTENT *****************/
 
 
@@ -278,10 +314,49 @@ ul.lower-roman {
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+
+
+.footer-background {
+    background: #141414;
+    padding: 20px;
+    color: #fff;
+}
+.col-left {
+    padding: 0;
+    text-align: left;
+}
+.col-left a,
+.col-left a:hover,
+.col-left a:focus{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.col-right {
+    padding: 0;
+    text-align: right;
+}
+.col-right a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    color: rgba(255,255,255,.3);
+    text-align: center;
+}
+.col-right a:hover{
+    color: #ffffff;
+}
+.margin-left-10px{
+    margin-left: 10px;
+}
+.margin-right-10px{
+    margin-right: 10px;
+}
+.mail{
+    font-weight: 700;
+
 }
 
 /*************** /FOOTER *****************/
@@ -289,7 +364,12 @@ address{
 
 
 
-
+@media only screen and (min-width: 1200px){
+    .info li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
 
 
 

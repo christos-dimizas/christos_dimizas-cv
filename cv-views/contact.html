@@ -1,0 +1,72 @@
+<div class="row row-content">
+
+    <!-- ADDRESS MAP -->
+    <div class="col-xs-12 col-sm-6 padding-L-R-30px animateblock top">
+        <!--<h3 class="section-title">Achievements</h3>-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 ">
+                <div id="addressGoogleMap" style="width:100%;height:380px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="col-xs-12 col-sm-6 padding-L-R-30px animateblock btm">
+        <h3 class="section-title">GET IN TOUCH</h3>
+        <div id="contact_info">
+            <div class="row padding-top-10px">
+                <div class="col-xs-12 col-sm-12">
+
+                    <ul class="info">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <span>Avidou 133, Zografou, 15772 Athens, Greece</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <span>christos.dimizas@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-mobile"></i> +30 6945231725
+                            <i class="fa fa-phone margin-left-10px"></i> +30 2155305098
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $(function(){
+        var $elems = $('.animateblock');
+        var winheight = $(window).height();
+        var fullheight = $(document).height();
+
+        $(window).scroll(function(){
+            animate_elems();
+        });
+
+        function animate_elems() {
+            wintop = $(window).scrollTop(); // calculate distance from top of window
+
+            // loop through each item to check when it animates
+            $elems.each(function(){
+                $elm = $(this);
+
+                if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+
+                topcoords = $elm.offset().top; // element's distance from top of page in pixels
+
+                if(wintop > (topcoords - (winheight*.75))) {
+                    // animate when top of the window is 3/4 above the element
+                    $elm.addClass('animated');
+                }
+            });
+        } // end animate_elems()
+    });
+
+</script>
