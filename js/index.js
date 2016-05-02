@@ -3,13 +3,13 @@
  */
 
 // LOAD WORK EXPERIENCE VIEW
-$( document ).ready(function(){
-    $("#work-experience").load("cv-views/work_experience.html");
-    $("#education-coursework").load("cv-views/education-coursework.html");
-    $("#skills").load("cv-views/skills.html");
-    $("#extra-info").load("cv-views/interests-achievements.html");
-    $("#contact").load("cv-views/contact.html");
-});
+//$( document ).ready(function(){
+//    $("#work-experience").load("cv-views/work_experience.html");
+//    $("#education-coursework").load("cv-views/education-coursework.html");
+//    $("#skills").load("cv-views/skills.html");
+//    $("#extra-info").load("cv-views/interests-achievements.html");
+//    $("#contact").load("cv-views/contact.html");
+//});
 
 // Smooth scrolling when clicking an anchor link
 $('a').click(function(){
