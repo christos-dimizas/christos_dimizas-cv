@@ -305,6 +305,86 @@ ul.lower-roman {
 }
 
 /* Section : WORK */
+/*.section_header {*/
+    /*height: 60px;*/
+    /*border-top: 1px solid #e5e5e5;*/
+/*}*/
+/*.dark .section_header {*/
+    /*border-color: #3b3b3b;*/
+/*}*/
+/*.section_header .section_title {*/
+    /*height: 60px;*/
+    /*position: relative;*/
+    /*margin-bottom: 0;*/
+/*}*/
+/*h2 {*/
+    /*font-size: 18px;*/
+    /*line-height: 21px;*/
+/*}*/
+/*.section_header .section_title a, .section_header .section_title strong {*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*height: 30px;*/
+    /*display: block;*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: 700;*/
+    /*transition: height ease .2s;*/
+/*}*/
+/*.section_header .section_title a span.icon, .section_header .section_title strong span.icon {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: -60px;*/
+    /*display: block;*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*font-weight: normal;*/
+    /*-webkit-transition: all ease .2s;*/
+    /*-moz-transition: all ease .2s;*/
+    /*-ms-transition: all ease .2s;*/
+    /*-o-transition: all ease .2s;*/
+    /*transition: all ease .2s;*/
+/*}*/
+/*.section_header .section_name {*/
+    /*position: relative;*/
+    /*z-index: 999;*/
+    /*height: 60px;*/
+    /*line-height: 59px;*/
+    /*display: block;*/
+    /*padding: 0 29px;*/
+    /*text-align: center;*/
+    /*color: #646464;*/
+    /*-webkit-transition: all ease .2s;*/
+    /*-moz-transition: all ease .2s;*/
+    /*-ms-transition: all ease .2s;*/
+    /*-o-transition: all ease .2s;*/
+    /*transition: all ease .2s;*/
+/*}*/
+/*.section_header .section_title .section_name {*/
+    /*font-size: 19px;*/
+/*}*/
+/*.dark .section_header .section_title .section_icon {*/
+    /*border-color: #3b3b3b;*/
+    /*background: #282828;*/
+/*}*/
+/*.section_header .section_title .section_icon {*/
+    /*margin: 10px 10px 0 0;*/
+    /*background: #fff;*/
+    /*border: solid #e5e5e5 3px;*/
+    /*width: 34px;*/
+    /*height: 34px;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*background: #ffffff;*/
+    /*z-index: 40;*/
+    /*cursor: pointer;*/
+    /*-webkit-transition: all linear .2s;*/
+    /*-moz-transition: all linear .2s;*/
+    /*-ms-transition: all linear .2s;*/
+    /*-o-transition: all linear .2s;*/
+    /*transition: all linear .2s;*/
+/*}*/
 
 /* Section : EDUCATION & COURSEWORK */
 
