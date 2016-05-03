@@ -139,9 +139,13 @@ h3{
     position: fixed;
     bottom: 0;
     right: 0;
-    margin: 100px;
+    margin: 50px;
     border-radius: 50%;
     border: none;
+    z-index: 1;
+    background-color: white;
+    width: 50px;
+    height: 50px;
 }
 .arrow-icon{
     font-size: 30px;
@@ -279,8 +283,8 @@ ul.lower-roman {
     height: auto;
 }
 
-.padding-L-R-30px{
-    padding: 0px 30px;
+.padding-L-R-60px{
+    padding: 0px 60px;
 }
 
 .padding-top-10px{
@@ -299,6 +303,15 @@ ul.lower-roman {
     line-height: 36px;
     list-style-type: none;
 }
+
+/* Section : WORK */
+
+/* Section : EDUCATION & COURSEWORK */
+
+/* Section : TECHNICAL SKILLS & ADDITIONAL SKILLS */
+
+/* Section : ACHIEVEMENTS & PERSONAL INTERESTS */
+
 
 
 /*************** /CONTENT *****************/

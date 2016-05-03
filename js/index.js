@@ -11,6 +11,40 @@
 //    $("#contact").load("cv-views/contact.html");
 //});
 
+$('#scify_projects').slideUp();
+$('#show_more').on('click', function(){
+    $('#scify_projects').slideToggle();
+});
+
+$(function(){
+    var $elems = $('.animateblock');
+    var winheight = $(window).height();
+    var fullheight = $(document).height();
+
+    $(window).scroll(function(){
+        animate_elems();
+    });
+
+    function animate_elems() {
+        wintop = $(window).scrollTop(); // calculate distance from top of window
+
+        // loop through each item to check when it animates
+        $elems.each(function(){
+            $elm = $(this);
+
+            if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+
+            topcoords = $elm.offset().top; // element's distance from top of page in pixels
+
+            if(wintop > (topcoords - (winheight*.75))) {
+                // animate when top of the window is 3/4 above the element
+                $elm.addClass('animated');
+            }
+        });
+    } // end animate_elems()
+});
+
+
 // Smooth scrolling when clicking an anchor link
 $('a').click(function(){
     $('html, body').animate({
@@ -19,21 +53,21 @@ $('a').click(function(){
     return false;
 });
 
-
-jQuery(document).ready(function() {
+//  BACK TO TOP BUTTON FUNCTIONALITY
+$(document).ready(function() {
     var offset = 250;
     var duration = 300;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-to-top').fadeIn(duration);
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('.back-to-top').fadeIn(duration);
         } else {
-            jQuery('.back-to-top').fadeOut(duration);
+            $('.back-to-top').fadeOut(duration);
         }
     });
 
-    jQuery('.back-to-top').click(function(event) {
+    $('.back-to-top').click(function(event) {
         event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
+        $('html, body').animate({scrollTop: 0}, duration);
         return false;
     })
 });
