@@ -2,18 +2,82 @@
  * Created by christos on 30/4/2016.
  */
 
-// LOAD WORK EXPERIENCE VIEW
-//$( document ).ready(function(){
-//    $("#work-experience").load("cv-views/work_experience.html");
-//    $("#education-coursework").load("cv-views/education-coursework.html");
-//    $("#skills").load("cv-views/skills.html");
-//    $("#extra-info").load("cv-views/interests-achievements.html");
-//    $("#contact").load("cv-views/contact.html");
-//});
+// HIDE ALL EVERY INFO
+$('.row.row-content').hide();
+// ON HOVER TOGGLE BACKGROUND
+$('.title-collapse h3').hover(function(){
+    $(this).toggleClass('black-background');
+});
+
+/*
+* ON CLICK SHOW INFO AND CHANGE STYLES ACCORDINGLY
+*/
+
+$('#work_expand').on('click', function(){
+    var toBeShown = $(this).closest('h3').closest('.title-collapse').next('.row.row-content');
+    $(this).find('span.bold').toggleClass('clicked-title green-background');
+    toBeShown.slideToggle(500, function(){
+        if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+    });
+    return false;
+});
+
+$('#education_expand').on('click', function(){
+    var toBeShown = $(this).closest('h3').closest('div .title-collapse').closest('.container').next('.row.row-content');
+    $(this).find('span.bold').toggleClass('clicked-title yellow-background');
+    toBeShown.slideToggle(500, function(){
+        if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+    });
+    return false;
+});
+
+$('#skills_expand').on('click', function(){
+    var toBeShown = $(this).closest('h3').closest('div .title-collapse').closest('.container').next('.row.row-content');
+    $(this).find('span.bold').toggleClass('clicked-title red-background');
+    toBeShown.slideToggle(500, function(){
+        if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+    });
+    return false;
+});
+
+$('#interests_expand').on('click', function(){
+    var toBeShown = $(this).closest('h3').closest('div .title-collapse').closest('.container').next('.row.row-content');
+    $(this).find('span.bold').toggleClass('clicked-title blue-background');
+    toBeShown.slideToggle(500, function(){
+        if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+    });
+    return false;
+});
+
+$('#contact_expand').on('click', function(){
+    var toBeShown = $(this).closest('h3').closest('div .title-collapse').closest('.container').next('.row.row-content');
+    $(this).find('span.bold').toggleClass('clicked-title light-green-background');
+    toBeShown.slideToggle(500, function(){
+        if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+    });
+    return false;
+});
+
 
 $('#scify_projects').slideUp();
 $('#show_more').on('click', function(){
     $('#scify_projects').slideToggle();
+    $(this).toggleClass('visible');
+    if($(this).hasClass('visible')){
+        $(this).text('Less');
+    } else {
+        $(this).text('More');
+    }
 });
 
 $(function(){
