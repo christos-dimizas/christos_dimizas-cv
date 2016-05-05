@@ -2,19 +2,79 @@
  * Created by christos on 30/4/2016.
  */
 
+
 // HIDE ALL EVERY INFO
-$('.row.row-content').hide();
+var anyOther = $('.row.row-content');
+anyOther.slideUp();
 // ON HOVER TOGGLE BACKGROUND
 $('.title-collapse h3').hover(function(){
     $(this).toggleClass('black-background');
 });
+
+//NAV BAR ON CLICK EXPAND RELATIVE SECTOR
+$('#work-experience-anchor').on('click', function(){
+
+    var toBeShown = $('#work-experience .row.row-content');
+    var targetSection = $('#work_expand');
+
+    if(targetSection.not(":visible")){
+        targetSection.find('span.bold').addClass('clicked-title green-background');
+        $("html, body").animate({scrollTop: targetSection.offset().top},500);
+        toBeShown.slideDown(1500);
+    }
+});
+
+$('#education-coursework-anchor').on('click', function(){
+    var toBeShown = $('#education-coursework .row.row-content');
+    var targetSection = $('#education_expand');
+
+    if(targetSection.not(":visible")){
+        targetSection.find('span.bold').addClass('clicked-title yellow-background');
+        $("html, body").animate({scrollTop: targetSection.offset().top},500);
+        toBeShown.slideDown(1500);
+    }
+});
+
+$('#skills-anchor').on('click', function(){
+    var toBeShown = $('#skills .row.row-content');
+    var targetSection = $('#skills_expand');
+
+    if(targetSection.not(":visible")){
+        targetSection.find('span.bold').addClass('clicked-title red-background');
+        $("html, body").animate({scrollTop: targetSection.offset().top},500);
+        toBeShown.slideDown(1500);
+    }
+});
+
+$('#interests-anchor').on('click', function(){
+    var toBeShown = $('#interests .row.row-content');
+    var targetSection = $('#interests_expand');
+
+    if(targetSection.not(":visible")){
+        targetSection.find('span.bold').addClass('clicked-title blue-background');
+        $("html, body").animate({scrollTop: targetSection.offset().top},500);
+        toBeShown.slideDown(1500);
+    }
+});
+
+$('#contact-anchor').on('click', function(){
+    var toBeShown = $('#contact .row.row-content');
+    var targetSection = $('#contact_expand');
+
+    if(targetSection.not(":visible")){
+        targetSection.find('span.bold').addClass('clicked-title light-green-background');
+        $("html, body").animate({scrollTop: targetSection.offset().top},500);
+        toBeShown.slideDown(1500);
+    }
+});
+
 
 /*
 * ON CLICK SHOW INFO AND CHANGE STYLES ACCORDINGLY
 */
 
 $('#work_expand').on('click', function(){
-    var toBeShown = $(this).closest('h3').closest('.title-collapse').next('.row.row-content');
+    var toBeShown = $(this).closest('h3').closest('.title-collapse').closest('.container').next('.container').find('.row.row-content')
     $(this).find('span.bold').toggleClass('clicked-title green-background');
     toBeShown.slideToggle(500, function(){
         if(toBeShown.is(":visible")){
@@ -62,6 +122,9 @@ $('#contact_expand').on('click', function(){
     $(this).find('span.bold').toggleClass('clicked-title light-green-background');
     toBeShown.slideToggle(500, function(){
         if(toBeShown.is(":visible")){
+            $("html, body").animate({scrollTop: $(this).offset().top},500);
+        }
+        else{
             $("html, body").animate({scrollTop: $(this).offset().top},500);
         }
     });
@@ -112,8 +175,7 @@ $(function(){
 // Smooth scrolling when clicking an anchor link
 $('a').click(function(){
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+        scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
     return false;
 });
 

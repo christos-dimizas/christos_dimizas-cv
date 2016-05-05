@@ -29,20 +29,13 @@
                     </button>
                     <span id="top" class="navbar-brand">CHRISTOS DIMIZAS CV</span>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
+                <div id="navbar" class="navbar-collapse collapse font-size-13px">
                     <ul class="nav navbar-nav">
-                        <li>
-                            <!-- class="active" -->
-                            <!--<span class="glyphicon glyphicon-education" aria-hidden="true"></span>-->
-                            <a href="#work-experience"> Work & Academic Experience</a>
-                        </li>
-                        <li>
-                            <a href="#education-coursework">Education & Coursework</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#extra-info" class="dropdown-toggle">Achievements & Personal Interests</a>
-                        </li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a id="work-experience-anchor" href="#work-experience"> Work & Academic Experience</a></li>
+                        <li><a id="education-coursework-anchor" href="#education-coursework">Education & Coursework</a></li>
+                        <li><a id="skills-anchor" href="#education-coursework">Technical & additional skills</a></li>
+                        <li><a id="interests-anchor" href="#interests">Achievements & Personal Interests</a></li>
+                        <li><a id="contact-anchor" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,205 +73,207 @@
         </section>
 
         <!------ WORK & ACADEMIC EXPERIENCE ------------->
-        <section id="work-experience" class="container">
-
-            <div class="title-collapse border-grey">
-                <h3 class="no-margin">
-                    <a id="work_expand"><i class="fa fa-briefcase section-left-icon green-background"></i><span class="bold padding-15px">WORK & ACADEMIC EXPERIENCE</span></a>
-                </h3>
+        <section id="work-experience" class="container-fluid">
+            <div class="container">
+                <div class="title-collapse border-grey">
+                    <h3 class="no-margin">
+                        <a id="work_expand"><i class="fa fa-briefcase section-left-icon green-background"></i><span class="bold padding-15px">WORK & ACADEMIC EXPERIENCE</span></a>
+                    </h3>
+                </div>
             </div>
-
-            <div class="row row-content">
-                <h3 class="section-title">WORK & ACADEMIC EXPERIENCE</h3>
-                <!-- SCIFY NPO -->
-                <div class="row animateblock left">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">November 2014 - Today</h4>
+            <div class="container">
+                <div class="row row-content">
+                    <h3 class="section-title">WORK & ACADEMIC EXPERIENCE</h3>
+                    <!-- SCIFY NPO -->
+                    <div class="row animateblock left">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">November 2014 - Today</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <h3><strong>Software Engineer at <a href="http://www.scify.gr/site/el/">SciFy N.P.O.</a></strong></h3>
+                            <div class="more-info ">
+                                <ul>
+                                    <li><strong>Scrum development.</strong></li>
+                                    <li>Implementing <strong>mockups designs with HTML, CSS, JavaScript &amp; JQuery.</strong></li>
+                                    <li><strong>PHP wed based MVC projects (Laravel 5 Framework)</strong>. Both <strong>front-end &amp; back-end development</strong> according to <strong>mockups designs</strong> and <strong>client’s specifications</strong>.</li>
+                                    <li><strong>CMS</strong> Projects development (<strong>Drupal, WordPress</strong>).</li>
+                                    <li><strong>R&amp;D Ontology Learning Java pet project.</strong></li>
+                                </ul>
+                                <!-- MORE -->
+                                <p><button id="show_more">More</button></p>
+                                <div id="scify_projects" class="">
+                                    <h4>Top Projects:</h4>
+                                    <ul class="lower-roman">
+                                        <li>
+                                            <h4><a href="http://benefile-project.scify.org/" target="_blank">Benefile Platform</a></h4>
+                                            <p>
+                                                Benefile is an online platform, which enables PRAKSIS NPO to maintain an online administration and a more manageable database of immigrants information (personal, medical, legal and social information).
+                                            </p>
+                                            <strong>Main responsibilities:</strong>
+                                            <ul class="dashed">
+                                                <li><strong>PHP MVC development (Laravel 5 framework).</strong></li>
+                                                <li><strong>Front-end HTML/CSS JQuery web development</strong>, according to <strong>mockups designs</strong>.</li>
+                                                <li><strong>Back-end platform services development</strong> according to <strong>customer's specifications</strong>.</li>
+                                            </ul>
+                                        </li>
+                                        <!---->
+                                        <li>
+                                            <h4><a href="https://www.ekpizo.gr/" target="_blank">EKPIZO NPO website</a></h4>
+                                            <p>
+                                                EKPIZO is a non for Profit Organization which defends the rights of all people, as consumers.
+                                            </p>
+                                            <strong>Main responsibilities:</strong>
+                                            <ul class="dashed">
+                                                <li><strong>CMS (Drupal) website development.</strong></li>
+                                                <li><strong>Customer requirements collection & specifications analysis.</strong>.</li>
+                                                <li>Website customization for auto-arranging posts to specific pages.</li>
+                                                <li><strong>Custom PHP admin panel development</strong> for managing subscribed users.</li>
+                                            </ul>
+                                        </li>
+                                        <!---->
+                                        <li>
+                                            <h4><a href="http://www.joincargo.com/" target="_blank">JoinCargo</a></h4>
+                                            <p>
+                                                A logistics web platform that brings together shippers and carriers.
+                                            </p>
+                                            <strong>Main responsibilities:</strong>
+                                            <ul class="dashed">
+                                                <li><strong>Reconfigure HTML5 / CSS3 website design</strong>, according to
+                                                    new mockups and new template, in order to be functional
+                                                    with <strong>Laravel Framework & Blade templating engine</strong>.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-9">
-                        <h3><strong>Software Engineer at <a href="http://www.scify.gr/site/el/">SciFy N.P.O.</a></strong></h3>
-                        <div class="more-info ">
-                            <ul>
-                                <li><strong>Scrum development.</strong></li>
-                                <li>Implementing <strong>mockups designs with HTML, CSS, JavaScript &amp; JQuery.</strong></li>
-                                <li><strong>PHP wed based MVC projects (Laravel 5 Framework)</strong>. Both <strong>front-end &amp; back-end development</strong> according to <strong>mockups designs</strong> and <strong>client’s specifications</strong>.</li>
-                                <li><strong>CMS</strong> Projects development (<strong>Drupal, WordPress</strong>).</li>
-                                <li><strong>R&amp;D Ontology Learning Java pet project.</strong></li>
-                            </ul>
-                            <!-- MORE -->
-                            <p><button id="show_more">More</button></p>
-                            <div id="scify_projects" class="">
-                                <h4>Top Projects:</h4>
-                                <ul class="lower-roman">
-                                    <li>
-                                        <h4><a href="http://benefile-project.scify.org/" target="_blank">Benefile Platform</a></h4>
-                                        <p>
-                                            Benefile is an online platform, which enables PRAKSIS NPO to maintain an online administration and a more manageable database of immigrants information (personal, medical, legal and social information).
-                                        </p>
-                                        <strong>Main responsibilities:</strong>
-                                        <ul class="dashed">
-                                            <li><strong>PHP MVC development (Laravel 5 framework).</strong></li>
-                                            <li><strong>Front-end HTML/CSS JQuery web development</strong>, according to <strong>mockups designs</strong>.</li>
-                                            <li><strong>Back-end platform services development</strong> according to <strong>customer's specifications</strong>.</li>
-                                        </ul>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                        <h4><a href="https://www.ekpizo.gr/" target="_blank">EKPIZO NPO website</a></h4>
-                                        <p>
-                                            EKPIZO is a non for Profit Organization which defends the rights of all people, as consumers.
-                                        </p>
-                                        <strong>Main responsibilities:</strong>
-                                        <ul class="dashed">
-                                            <li><strong>CMS (Drupal) website development.</strong></li>
-                                            <li><strong>Customer requirements collection & specifications analysis.</strong>.</li>
-                                            <li>Website customization for auto-arranging posts to specific pages.</li>
-                                            <li><strong>Custom PHP admin panel development</strong> for managing subscribed users.</li>
-                                        </ul>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                        <h4><a href="http://www.joincargo.com/" target="_blank">JoinCargo</a></h4>
-                                        <p>
-                                            A logistics web platform that brings together shippers and carriers.
-                                        </p>
-                                        <strong>Main responsibilities:</strong>
-                                        <ul class="dashed">
-                                            <li><strong>Reconfigure HTML5 / CSS3 website design</strong>, according to
-                                                new mockups and new template, in order to be functional
-                                                with <strong>Laravel Framework & Blade templating engine</strong>.</li>
-                                        </ul>
+
+                    <!-- JAVA TUTORIAL -->
+                    <div class="row animateblock left">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">Aug. 2014 - Nov. 2014</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong>JAVA programming tutorials</strong> (self-study)</h3>
+                            <div class="more-info">
+                                <ul>
+                                    <li>MOOC e-course from University of San Jose (Udacity), lasting two
+                                        months.</li>
+                                    <li>Basic programming knowledge via Eclipse.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ALKYON E.E. -->
+                    <div class="row animateblock right">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">January 2014 - July 2014</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong><a href="http://www.alkyon-energy.gr/" target="_blank">Alkyon E.E.</a></strong></h3>
+                            <div class="more-info">
+                                <h5>Construction company, Renewable Energy, Photovoltaic Installation, Geothermal Systems.<br>
+                                    Part of National Strategic Reference Framework - Executives SMEs government program)</h5>
+                                <ul>
+                                    <li><strong>Customer Service. Communication with suppliers.</strong></li>
+                                    <li>Translation of documents from Greek to English and vice versa.</li>
+                                    <li>Responsible for external payments (Banks, Public Services).</li>
+                                    <li>Document archive coordinator.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRIVATE TUTOR -->
+                    <div class="row animateblock right">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">May 2013 - Nov. 2013 & <br> October 2011 - June 2012</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong>Private Tutor (Self-employed)</strong></h3>
+                            <div class="more-info">
+                                <ul>
+                                    <li>Private tutor for undergraduate & high school students accordingly.
+                                        Courses: Linear Algebra, Differential equations solving methods
+                                        (homogeneous and inhomogeneous), introduction to differential, integral,
+                                        vector & basic complex numbers calculus, trigonometry, introduction to
+                                        physics of electromagnetism, particle physics (basic structure of the
+                                        atomic world & energy to matter relationship).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Computational Research (Out of campus) -->
+                    <div class="row animateblock left">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">March 2012 - Jan. 2013</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong>Computational Research (Out of campus)</strong></h3>
+                            <div class="more-info">
+                                <ul>
+                                    <li>Computer simulation research (out of campus) of III-Nitride Double
+                                        Barrier Resonant Tunneling Diodes. Investigation of Piezoelectric
+                                        Polarization effects on devices and determination of “Charge effects”
+                                        mechanisms due to applied voltage.
+                                        <br>
+                                        <span class="pull-right">(supervisor : Dr. Eleftherios Iliopoulos)</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- JAVA TUTORIAL -->
-                <div class="row animateblock left">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">Aug. 2014 - Nov. 2014</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong>JAVA programming tutorials</strong> (self-study)</h3>
-                        <div class="more-info">
-                            <ul>
-                                <li>MOOC e-course from University of San Jose (Udacity), lasting two
-                                    months.</li>
-                                <li>Basic programming knowledge via Eclipse.</li>
-                            </ul>
+                    <!-- Post Graduate Research -->
+                    <div class="row animateblock left">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">April 2009 - August 2011</h4>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong>Post Graduate Research</strong></h3>
+                            <div class="more-info">
+                                <ul>
+                                    <li>Electric characterization and computational study (using NextNano3
+                                        semiconductor simulator) of III-Nitride Double Barrier Resonant Tunneling
+                                        Diodes. Investigation of Negative Differential Resistance (NDR)
+                                        phenomena and experimental observation of current hysteresis
+                                        phenomena.
+                                        <br>
+                                        <span class="pull-right">(supervisor : Dr. Eleftherios Iliopoulos)</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- ALKYON E.E. -->
-                <div class="row animateblock right">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">January 2014 - July 2014</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong><a href="http://www.alkyon-energy.gr/" target="_blank">Alkyon E.E.</a></strong></h3>
-                        <div class="more-info">
-                            <h5>Construction company, Renewable Energy, Photovoltaic Installation, Geothermal Systems.<br>
-                                Part of National Strategic Reference Framework - Executives SMEs government program)</h5>
-                            <ul>
-                                <li><strong>Customer Service. Communication with suppliers.</strong></li>
-                                <li>Translation of documents from Greek to English and vice versa.</li>
-                                <li>Responsible for external payments (Banks, Public Services).</li>
-                                <li>Document archive coordinator.</li>
-                            </ul>
+                    <!-- Teacher (postgraduate student & undergraduate student) – Professor Assistant. -->
+                    <div class="row animateblock right">
+                        <div class="col-xs-12 col-sm-3">
+                            <h4 class="margin-top-28px" align="center">April 2009 - April 2011 & <br> Sept. 2006 – Feb. 2007</h4>
                         </div>
-                    </div>
-                </div>
-
-                <!-- PRIVATE TUTOR -->
-                <div class="row animateblock right">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">May 2013 - Nov. 2013 & <br> October 2011 - June 2012</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong>Private Tutor (Self-employed)</strong></h3>
-                        <div class="more-info">
-                            <ul>
-                                <li>Private tutor for undergraduate & high school students accordingly.
-                                    Courses: Linear Algebra, Differential equations solving methods
-                                    (homogeneous and inhomogeneous), introduction to differential, integral,
-                                    vector & basic complex numbers calculus, trigonometry, introduction to
-                                    physics of electromagnetism, particle physics (basic structure of the
-                                    atomic world & energy to matter relationship).</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Computational Research (Out of campus) -->
-                <div class="row animateblock left">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">March 2012 - Jan. 2013</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong>Computational Research (Out of campus)</strong></h3>
-                        <div class="more-info">
-                            <ul>
-                                <li>Computer simulation research (out of campus) of III-Nitride Double
-                                    Barrier Resonant Tunneling Diodes. Investigation of Piezoelectric
-                                    Polarization effects on devices and determination of “Charge effects”
-                                    mechanisms due to applied voltage.
-                                    <br>
-                                    <span class="pull-right">(supervisor : Dr. Eleftherios Iliopoulos)</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Post Graduate Research -->
-                <div class="row animateblock left">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">April 2009 - August 2011</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong>Post Graduate Research</strong></h3>
-                        <div class="more-info">
-                            <ul>
-                                <li>Electric characterization and computational study (using NextNano3
-                                    semiconductor simulator) of III-Nitride Double Barrier Resonant Tunneling
-                                    Diodes. Investigation of Negative Differential Resistance (NDR)
-                                    phenomena and experimental observation of current hysteresis
-                                    phenomena.
-                                    <br>
-                                    <span class="pull-right">(supervisor : Dr. Eleftherios Iliopoulos)</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Teacher (postgraduate student & undergraduate student) – Professor Assistant. -->
-                <div class="row animateblock right">
-                    <div class="col-xs-12 col-sm-3">
-                        <h4 class="margin-top-28px" align="center">April 2009 - April 2011 & <br> Sept. 2006 – Feb. 2007</h4>
-                    </div>
-                    <div class="col-xs-12 col-sm-9 ">
-                        <h3><strong>Teacher</strong> (postgraduate student & undergraduate student) – <strong>Professor Assistant</strong></h3>
-                        <div class="more-info">
-                            <ul>
-                                <li>Advanced Physics Laboratory- Dep. of Physics (Univ. of Crete).
-                                    Teaching and laboratory experience (100 - 120 hours).
-                                </li>
-                                <li>Physics Laboratory II - Electromagnetism- Dep. of Physics (Univ. of
-                                    Crete). Teaching and laboratory experience (30 hours).
-                                    <ul>
-                                        <li>Ferromagnetic Hysteresis, Hall Effect, Frank – Hertz Experiment
-                                            (Bohr’s atomic model), DC measurements in RC, RL, RLC circuits, Acceleration and deviation of electrons due to presence of
-                                            Electric and Magnetic Field.
-                                        </li>
-                                        <li>Experimental data processing.</li>
-                                        <li>Correction and grading of works of students.</li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <div class="col-xs-12 col-sm-9 ">
+                            <h3><strong>Teacher</strong> (postgraduate student & undergraduate student) – <strong>Professor Assistant</strong></h3>
+                            <div class="more-info">
+                                <ul>
+                                    <li>Advanced Physics Laboratory- Dep. of Physics (Univ. of Crete).
+                                        Teaching and laboratory experience (100 - 120 hours).
+                                    </li>
+                                    <li>Physics Laboratory II - Electromagnetism- Dep. of Physics (Univ. of
+                                        Crete). Teaching and laboratory experience (30 hours).
+                                        <ul>
+                                            <li>Ferromagnetic Hysteresis, Hall Effect, Frank – Hertz Experiment
+                                                (Bohr’s atomic model), DC measurements in RC, RL, RLC circuits, Acceleration and deviation of electrons due to presence of
+                                                Electric and Magnetic Field.
+                                            </li>
+                                            <li>Experimental data processing.</li>
+                                            <li>Correction and grading of works of students.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -298,7 +293,7 @@
 
             <div class="row row-content">
                 <!-- EDUCATION -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock top">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock left">
                     <h3 class="section-title">EDUCATION</h3>
                     <div id="education">
                         <div class="row">
@@ -330,7 +325,7 @@
                 </div>
 
                 <!-- COURSEWORK -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock top">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock right">
                     <h3 class="section-title">COURSEWORK</h3>
                     <div id="coursework">
                         <div class="row padding-top-10px">
@@ -366,7 +361,7 @@
             <div class="row row-content">
 
                 <!-- TECHNICAL SKILLS -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock top">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock left">
                     <h3 class="section-title">TECHNICAL SKILLS</h3>
                     <div id="technical_skills">
                         <div class="row">
@@ -388,7 +383,7 @@
                 </div>
 
                 <!-- ADDITIONAL SKILLS -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock btm">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock right">
                     <h3 class="section-title">ADDITIONAL SKILLS</h3>
                     <div id="additional_skills">
                         <div class="row padding-top-10px">
@@ -423,7 +418,7 @@
         </section>
 
         <!------ ACHIEVEMENTS & PERSONAL INTERESTS ------>
-        <section id="extra-info" class="container-fluid">
+        <section id="interests" class="container-fluid">
 
             <div class="container">
                 <div class="title-collapse border-grey">
@@ -434,7 +429,7 @@
             </div>
             <div class="row row-content">
                 <!-- ACHIEVEMENTS -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock top">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock left">
                     <h3 class="section-title">ACHIEVEMENTS</h3>
                     <div id="achievements">
                         <div class="row">
@@ -475,9 +470,9 @@
                 </div>
 
                 <!-- PERSONAL INTERESTS -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock btm">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock right">
                     <h3 class="section-title">PERSONAL INTERESTS</h3>
-                    <div id="interests">
+                    <div id="personal_interests">
                         <div class="row padding-top-10px">
                             <div class="col-xs-12 col-sm-12 ">
                                 <ul>
@@ -517,7 +512,7 @@
             </div>
             <div class="row row-content">
                 <!-- ADDRESS MAP -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock top">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock left">
                     <!--<h3 class="section-title">Achievements</h3>-->
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 ">
@@ -528,7 +523,7 @@
                 </div>
 
                 <!-- CONTACT -->
-                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock btm ">
+                <div class="col-xs-12 col-sm-6 padding-L-R-60px animateblock right">
                     <h3 class="section-title no-margin-top">GET IN TOUCH</h3>
                     <div id="contact_info">
                         <div class="row padding-top-10px">

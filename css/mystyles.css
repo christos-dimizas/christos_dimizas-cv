@@ -26,6 +26,9 @@ h4, h5, p, ul, span{
 a{
     text-decoration: none !important;
 }
+.font-size-13px{
+    font-size: 13px;
+}
 
 /*************** MENU ******************/
 
@@ -455,6 +458,10 @@ ul.lower-roman {
 .no-padding{
     padding: 0px;
 }
+.no-pading-L-R{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 /*************** /FOOTER *****************/
 
@@ -465,6 +472,22 @@ ul.lower-roman {
     .info li {
         display: inline-block;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 720px){
+    .title-collapse span.bold.padding-15px{
+        font-size: 10px;
+    }
+
+    .clicked-title{
+        position: relative;
+        top: -5px;
+        padding: 23px;
+    }
+
+    section#contact h3.section-title.no-margin-top{
+        margin-top: 20px;
     }
 }
 
