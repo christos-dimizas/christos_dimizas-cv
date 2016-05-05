@@ -169,7 +169,7 @@ a{
     border-radius: 50%;
     border: none;
     z-index: 1;
-    background-color: #141414;
+    background-color: transparent;
     width: 50px;
     height: 50px;
 }
@@ -365,8 +365,13 @@ ul.lower-roman {
     border: 5px solid;
 }
 .clicked-title{
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
+    position: relative;
+    top: 0px;
     -webkit-transition: all ease 0.8s;
     -moz-transition: all ease 0.8s;
     transition: all ease 0.8s;
@@ -491,8 +496,14 @@ ul.lower-roman {
 
     .clicked-title{
         position: relative;
-        top: -5px;
-        padding: 23px;
+        /*top: -5px;*/
+        /*padding: 23px;*/
+        top: -7px;
+        padding-top: 21px;
+        padding-bottom: 24px;
+        padding-left: 21px;
+        padding-right: 21px;
+        line-height: 10px;
     }
 
     section#contact h3.section-title.no-margin-top{
