@@ -27,7 +27,7 @@ a{
     text-decoration: none !important;
 }
 .font-size-13px{
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 /*************** MENU ******************/
