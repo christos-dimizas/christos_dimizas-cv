@@ -4,8 +4,8 @@
 
 
 // HIDE ALL EVERY INFO
-var anyOther = $('.row.row-content');
-anyOther.slideUp();
+var everyInfo = $('.row.row-content');
+everyInfo.slideUp();
 // ON HOVER TOGGLE BACKGROUND
 $('.title-collapse h3').hover(function(){
     $(this).toggleClass('black-background');

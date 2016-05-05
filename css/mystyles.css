@@ -30,6 +30,10 @@ a{
     font-size: 13px !important;
 }
 
+.font-size-24px{
+    font-size: 24px;;
+}
+
 /*************** MENU ******************/
 
 .navbar-inverse {
@@ -194,7 +198,7 @@ a{
     text-transform: uppercase;
     padding: 10px 10px 10px 39px;
     font-weight: 700;
-    border-radius: 4px 0 0 4px;
+    /*border-radius: 4px 0 0 4px;*/
 }
 
 .margin-top-28px{
@@ -316,6 +320,11 @@ ul.lower-roman {
 .padding-L-R-60px{
     padding: 0px 60px;
 }
+
+.padding-L-R-15px{
+    padding: 0px 15px;
+}
+
 
 .padding-top-10px{
     padding-top: 10px;
