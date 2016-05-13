@@ -1,0 +1,33 @@
+{
+  "name": "christos-dimizas-cv-angular-version",
+  "version": "1.0.0",
+  "description": "My personal CV refactored with AngularJS",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "CV",
+    "Angular"
+  ],
+  "authors": [
+    "Christos Dimizas"
+  ],
+  "license": "home",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "angular": "~1.4.7",
+    "angular-route": "^1.5.5",
+    "angular-ui-router": "^0.2.18"
+  },
+  "resolutions": {
+    "angular": "1.5.5"
+  }
+}
