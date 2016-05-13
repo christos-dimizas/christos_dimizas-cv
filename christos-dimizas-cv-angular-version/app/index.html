@@ -17,15 +17,30 @@
     </head>
 
     <body ng-controller="IndexController">
+        <div id="wrapper">
+            <div id="sidebar-wrapper">
+                <div ui-view="header"></div>
+            </div>
 
-        <div ui-view="header"></div>
-        <div ui-view="landingPage" class="jumbotron fill "></div>
-        <div ui-view="workExperience"></div>
-        <div ui-view="education"></div>
-        <div ui-view="skills"></div>
-        <div ui-view="interests"></div>
-        <div ui-view="contact"></div>
-        <div ui-view="footer"></div>
+            <div id="page-content-wrapper" class="fill light-gray-background">
+                <div class="page-content">
+                    <div class="container">
+                        <!--<div class="row ">-->
+                            <!--<div class="col-md-12">-->
+                                <div ui-view="landingPage" class=""></div>
+                                <!--<div ui-view="workExperience"></div>-->
+                                <!--<div ui-view="education"></div>-->
+                                <!--<div ui-view="skills"></div>-->
+                                <!--<div ui-view="interests"></div>-->
+                                <!--<div ui-view="contact"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
         <!------ JS SCRIPTS ----------------------------->
         <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>

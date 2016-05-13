@@ -19,7 +19,7 @@ angular.module('dimizasCVApp', ['ui.router'])
                 url:'/',
                 views: {
                     'header': {
-                        templateUrl : 'views/header.html'
+                        templateUrl : 'views/sidebar.html'
                     },
                     'landingPage': {
                         templateUrl : 'views/landingPage.html'
