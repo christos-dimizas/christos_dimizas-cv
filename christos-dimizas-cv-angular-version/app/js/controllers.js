@@ -74,6 +74,12 @@ angular.module('dimizasCVApp')
 
     }])
 
+    // CONTACT INFO
+    .controller('ContactController',['ContactFactory', function($scope,ContactFactory) {
+        $scope.contact = ContactFactory.getAllContact();
+
+    }])
+
 
 
 

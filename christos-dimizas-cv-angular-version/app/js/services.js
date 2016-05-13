@@ -251,4 +251,35 @@ angular.module('dimizasCVApp')
         return myProjects;
     })
 
+    // CONTACT INFO
+    .factory('ContactFactory', function() {
+
+        var contact = {};
+
+        var contactList = [
+            {
+                _id:0,
+                address: "",
+                phone:"",
+                mobile:"",
+                linkedin:"",
+                skypeName:"",
+            }
+        ];
+
+        // get all contact info
+        contact.getAllContact = function(){
+            return contactList;
+        };
+
+        // get one contact item by index number
+        contact.getContactItem = function (index) {
+            return contactList[index];
+        };
+
+        return contact;
+    })
+
+
+
 ;
