@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a682c55-9973-4242-a708-31568964dfbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/services.js" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="christos_dimizas-cv.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,53 +38,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08988764" vertical-offset="0" max-vertical-offset="688">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="2064">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#h5#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -114,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mystyles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mystyles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.464286" vertical-offset="4427" max-vertical-offset="10432">
-              <caret line="288" column="1" selection-start-line="288" selection-start-column="1" selection-end-line="288" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.8041958" vertical-offset="9604" max-vertical-offset="10640">
+              <caret line="629" column="0" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,10 +90,10 @@
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/bower_components/angular-route/.bower.json" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/bower.json" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/services.js" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
       </list>
     </option>
   </component>
@@ -411,14 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.464286" vertical-offset="4427" max-vertical-offset="10432">
-          <caret line="288" column="1" selection-start-line="288" selection-start-column="1" selection-end-line="288" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="1472">
@@ -446,51 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08988764" vertical-offset="0" max-vertical-offset="688">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="2064">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#2;n#div#1;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#h5#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#section#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8041958" vertical-offset="9604" max-vertical-offset="10640">
+          <caret line="629" column="0" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
