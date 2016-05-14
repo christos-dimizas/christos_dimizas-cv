@@ -10,7 +10,7 @@
 'use strict';
 
 // UI-ROUTER
-angular.module('dimizasCVApp', ['ui.router'])
+angular.module('dimizasCVApp', ['ui.router', 'ngAnimate'])
     .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
 
@@ -25,18 +25,6 @@ angular.module('dimizasCVApp', ['ui.router'])
                         templateUrl : 'views/landingPage.html',
                         controller  : 'IndexController'
                     }
-                    //'skills': {
-                    //    templateUrl : 'views/skills.html'
-                    //},
-                    //'interests': {
-                    //    templateUrl : 'views/interests.html'
-                    //},
-                    //'contact': {
-                    //    templateUrl : 'views/contact.html'
-                    //},
-                    //'footer': {
-                    //    templateUrl : 'views/footer.html'
-                    //}
                 }
 
             })

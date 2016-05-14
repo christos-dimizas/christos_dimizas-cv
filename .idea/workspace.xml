@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1a682c55-9973-4242-a708-31568964dfbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/contact.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/education.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/education.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/interests.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/interests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/skills.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/skills.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/workExperience.html" afterPath="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/workExperience.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="christos_dimizas-cv.iws" />
@@ -33,41 +40,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5904936" vertical-offset="429" max-vertical-offset="992">
-              <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.65185183" vertical-offset="0" max-vertical-offset="832">
+              <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <caret line="77" column="34" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-                <element signature="e#138#1220#0" expanded="false" />
-                <element signature="e#567#1219#0" expanded="false" />
-                <element signature="e#613#697#0" expanded="false" />
-                <element signature="e#1331#1399#0" expanded="false" />
-                <element signature="e#1467#1607#0" expanded="false" />
-                <element signature="e#1526#1606#0" expanded="false" />
-                <element signature="e#1665#1790#0" expanded="false" />
-                <element signature="e#1720#1789#0" expanded="false" />
-                <element signature="e#1850#1981#0" expanded="false" />
-                <element signature="e#1907#1980#0" expanded="false" />
-                <element signature="e#2043#2152#0" expanded="false" />
-                <element signature="e#2092#2151#0" expanded="false" />
-                <element signature="e#2216#2355#0" expanded="false" />
-                <element signature="e#2277#2354#0" expanded="false" />
-                <element signature="e#2432#2556#0" expanded="false" />
-                <element signature="e#2487#2555#0" expanded="false" />
-                <element signature="e#2623#2751#0" expanded="false" />
-                <element signature="e#2680#2750#0" expanded="false" />
-                <element signature="e#2810#2927#0" expanded="false" />
-                <element signature="e#2861#2926#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +50,8 @@
       <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="32" max-vertical-offset="2064">
-              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state vertical-scroll-proportion="-0.3773585" vertical-offset="28" max-vertical-offset="2048">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
               </folding>
@@ -84,34 +59,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="868" max-vertical-offset="1712">
-              <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="656">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mystyles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9604" max-vertical-offset="10640">
-              <caret line="629" column="0" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="11248">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#236#2609#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,10 +94,15 @@
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/bower.json" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/services.js" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/workExperience.html" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html" />
-        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/contact.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/education.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/interests.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/skills.html" />
+        <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css" />
         <option value="$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html" />
       </list>
     </option>
@@ -141,8 +112,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="740" />
+    <option name="x" value="10" />
+    <option name="y" value="6" />
+    <option name="width" value="1356" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -286,9 +259,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -296,6 +266,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -314,17 +287,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="740" extended-state="6" />
+    <frame x="10" y="6" width="1356" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327787" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2629573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -334,9 +307,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -362,6 +335,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="992">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="720">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#138#1220#0" expanded="false" />
+            <element signature="e#567#1219#0" expanded="false" />
+            <element signature="e#613#697#0" expanded="false" />
+            <element signature="e#1331#1399#0" expanded="false" />
+            <element signature="e#1467#1607#0" expanded="false" />
+            <element signature="e#1526#1606#0" expanded="false" />
+            <element signature="e#1665#1790#0" expanded="false" />
+            <element signature="e#1720#1789#0" expanded="false" />
+            <element signature="e#1850#1981#0" expanded="false" />
+            <element signature="e#1907#1980#0" expanded="false" />
+            <element signature="e#2043#2152#0" expanded="false" />
+            <element signature="e#2092#2151#0" expanded="false" />
+            <element signature="e#2216#2355#0" expanded="false" />
+            <element signature="e#2277#2354#0" expanded="false" />
+            <element signature="e#2432#2556#0" expanded="false" />
+            <element signature="e#2487#2555#0" expanded="false" />
+            <element signature="e#2623#2751#0" expanded="false" />
+            <element signature="e#2680#2750#0" expanded="false" />
+            <element signature="e#2810#2927#0" expanded="false" />
+            <element signature="e#2861#2926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="2064">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="868" max-vertical-offset="1712">
+          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#236#2609#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="656">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9604" max-vertical-offset="10640">
+          <caret line="629" column="0" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="1472">
@@ -406,17 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="992">
           <caret line="447" column="27" selection-start-line="447" selection-start-column="16" selection-end-line="447" selection-end-column="27" />
-          <folding>
-            <element signature="e#143#4470#0" expanded="false" />
-            <element signature="e#4546#5952#0" expanded="false" />
-            <element signature="e#6016#6956#0" expanded="false" />
-            <element signature="e#7022#10828#0" expanded="false" />
-            <element signature="e#10896#12644#0" expanded="false" />
-            <element signature="e#12714#14162#0" expanded="false" />
-            <element signature="e#14245#15272#0" expanded="false" />
-            <element signature="e#15345#15962#0" expanded="false" />
-            <element signature="e#16027#16798#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,17 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#143#4470#0" expanded="false" />
-            <element signature="e#4546#5952#0" expanded="false" />
-            <element signature="e#6016#6956#0" expanded="false" />
-            <element signature="e#7022#10828#0" expanded="false" />
-            <element signature="e#10896#12644#0" expanded="false" />
-            <element signature="e#12714#14162#0" expanded="false" />
-            <element signature="e#14245#15272#0" expanded="false" />
-            <element signature="e#15345#15962#0" expanded="false" />
-            <element signature="e#16027#16798#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,37 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9604" max-vertical-offset="10640">
-          <caret line="629" column="0" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/workExperience.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3392">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8014311" vertical-offset="0" max-vertical-offset="624">
           <caret line="440" column="45" selection-start-line="440" selection-start-column="45" selection-end-line="440" selection-end-column="45" />
-          <folding>
-            <element signature="e#143#4470#0" expanded="false" />
-            <element signature="e#4546#5952#0" expanded="false" />
-            <element signature="e#6016#6956#0" expanded="false" />
-            <element signature="e#7022#10828#0" expanded="false" />
-            <element signature="e#10896#12644#0" expanded="false" />
-            <element signature="e#12714#14162#0" expanded="false" />
-            <element signature="e#14245#15272#0" expanded="false" />
-            <element signature="e#15345#15962#0" expanded="false" />
-            <element signature="e#16027#16798#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -542,15 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31484795" vertical-offset="0" max-vertical-offset="3328">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,21 +574,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/interests.html">
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/bower_components/angular-ui-router/src/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1392">
+        <state vertical-scroll-proportion="-0.27433628" vertical-offset="155" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/skills.html">
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/bower_components/angular-ui-router/src/state.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32958803" vertical-offset="0" max-vertical-offset="534">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.3478261" vertical-offset="192" max-vertical-offset="23616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060721062" vertical-offset="0" max-vertical-offset="864">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09619238" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/interests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09619238" vertical-offset="0" max-vertical-offset="499">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
@@ -608,36 +627,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/landingPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="32" max-vertical-offset="2064">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        <state vertical-scroll-proportion="-0.3773585" vertical-offset="28" max-vertical-offset="2048">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js">
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="868" max-vertical-offset="1712">
-          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.078125" vertical-offset="72" max-vertical-offset="656">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/skills.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09619238" vertical-offset="0" max-vertical-offset="499">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#section#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/sidebar.html">
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/views/workExperience.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.48" vertical-offset="0" max-vertical-offset="656">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.26452905" vertical-offset="28" max-vertical-offset="3392">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#236#2609#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/css/mystyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="11248">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/christos-dimizas-cv-angular-version/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5904936" vertical-offset="429" max-vertical-offset="992">
-          <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.65185183" vertical-offset="0" max-vertical-offset="832">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
           <folding />
         </state>
       </provider>
