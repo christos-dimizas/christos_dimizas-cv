@@ -5,17 +5,17 @@
     <div class="home-box col-xs-12 col-sm-12">
         <div>
             <img src="images/281cf9d.jpg" alt="Christos Dimizas image">
-            <h2>Christos Dimizas</h2>
+            <h2><a ui-sref="app">Christos Dimizas</a></h2>
             <!--<p>Software engineer</p>-->
         </div>
     </div>
     <div id="navbar" class="navbar-collapse">
         <ul class="sidebar-nav">
-            <li><a id="work-experience-anchor" ng-click="scrollTo('work-experience')"> Work & Academic Experience</a></li>
-            <li><a id="education-coursework-anchor" ng-click="scrollTo('education-coursework')">Education & Coursework</a></li>
-            <li><a id="skills-anchor" ng-click="scrollTo('skills')">Technical & additional skills</a></li>
-            <li><a id="interests-anchor" ng-click="scrollTo('interests')">Achievements & Personal Interests</a></li>
-            <li><a id="contact-anchor" ng-click="scrollTo('contact')">Contact</a></li>
+            <li><a id="work-experience-anchor" ui-sref="app.workExperience">Work & Academic Experience</a></li>
+            <li><a id="education-coursework-anchor" ui-sref="app.education">Education & Coursework</a></li>
+            <li><a id="skills-anchor" ui-sref="app.skills">Technical & additional skills</a></li>
+            <li><a id="interests-anchor" ui-sref="app.interests">Achievements & Personal Interests</a></li>
+            <li><a id="contact-anchor" ui-sref="app.contact">Contact</a></li>
         </ul>
     </div>
 
