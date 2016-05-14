@@ -12,15 +12,16 @@ angular.module('dimizasCVApp')
         var workList = [
             {
                 _id:0,
-                workName: "Software Engineer at SciFY N.P.O.",
-                image: "",
+                workName: "Software Engineer",
+                companyName:"SciFY N.P.O.",
                 companyDescription:"",
+                companyImage: "images/scify_logo_108.png",
                 date: "May 2015 - April 2016",
                 url:"http://www.scify.gr/site/el/",
-                details: ["Implementing <strong>mockups designs</strong> with <strong>HTML5, CSS3, JavaScript & JQuery</strong>.",
-                    "<strong>PHP wed based MVC projects</strong> (Laravel 5 Framework). Both <strong>front-end & back-end development</strong> according to mockups designs and client’s specifications.",
+                details: ["Implementing mockups designs with HTML5, CSS3, JavaScript & JQuery.",
+                    "PHP wed based MVC projects (Laravel 5 Framework). Both front-end & back-end development according to mockups designs and client’s specifications.",
                     "Customer requirements collection & specifications analysis.",
-                    "<strong>CMS</strong> Projects development (<strong>Drupal, WordPress</strong>).",
+                    "CMS Projects development (Drupal, WordPress).",
                 ],
                 topProjects:[
                     {
@@ -44,9 +45,10 @@ angular.module('dimizasCVApp')
                 ]
             },
             {
-                workName: "N.S.R.F. Voucher Software Engineer at SciFY N.P.O.",
-                image: "",
+                workName: "N.S.R.F. Voucher Software Engineer",
+                companyName: "SciFY N.P.O.",
                 companyDescription:"",
+                companyImage: "images/scify_logo_108.png",
                 date: "Nov. 2014 - May 2015",
                 url:"http://www.scify.gr/site/el/",
                 details: [
@@ -64,15 +66,16 @@ angular.module('dimizasCVApp')
                 ]
             },
             {
-                workName: "N.S.R.F. Voucher - Executives SMEs Alkyon E.E.",
-                image: "",
+                workName: "N.S.R.F. Voucher - Executives SMEs",
+                companyName: "Alkyon E.E.",
                 companyDescription:"Construction company",
+                companyImage: "images/alkyon.jpg",
                 date: "January 2014 - July 2014",
                 url:"http://www.alkyon-energy.gr/",
                 details: [
                     "Customer Service. Communication with suppliers.",
                     "Translation of documents from Greek to English and vice versa.",
-                    "Responsible for <strong>external payments</strong> (Banks,Public Services)."
+                    "Responsible for external payments (Banks,Public Services)."
                 ],
                 topProjects:[
                     {
@@ -311,35 +314,35 @@ angular.module('dimizasCVApp')
         var skillsList = [
             {
                 _id:0,
-                skill: "<strong>Object Oriented Analysis & Design principles.</strong>"
+                skill: "Object Oriented Analysis & Design principles."
             },
             {
                 _id:1,
-                skill: "<strong>Scrum</strong> (agile software development methodology), <strong>Git Software, Swing, SQL, HTML5, CSS3, JavaScript, PHP, JAVA, JQuery, Drupal, WordPress, Bootstrap framework, JIRA</strong> proprietary issue tracking."
+                skill: "Scrum (agile software development methodology), Git Software, Swing, SQL, HTML5, CSS3, JavaScript, PHP, JAVA, JQuery, Drupal, WordPress, Bootstrap framework, JIRA proprietary issue tracking."
             },
             {
                 _id:2,
-                skill: "<strong>Customer requirements Collection &specifications analysis.</strong>"
+                skill: "Customer requirements Collection &specifications analysis."
             },
             {
                 _id:3,
-                skill: "<strong>Eclipse, PHPStorm, Mathematica.</strong>"
+                skill: "Eclipse, PHPStorm, Mathematica."
             },
             {
                 _id:4,
-                skill: "Excellent knowledge of Microsoft Office (<strong>Word, Excel, PowerPoint</strong>)."
+                skill: "Excellent knowledge of Microsoft Office (Word, Excel, PowerPoint)."
             },
             {
                 _id:5,
-                skill: "Familiar with <strong>MatLab, Octave, AngularJS</strong>."
+                skill: "Familiar with MatLab, Octave, AngularJS."
             },
             {
                 _id:6,
-                skill: "Familiar with <strong>Windows & Linux</strong>."
+                skill: "Familiar with Windows & Linux."
             },
             {
                 _id:7,
-                skill: "Excellent Analytical Skills, Oral Presentation Skills, People Skills, <strong>Team work</strong>"
+                skill: "Excellent Analytical Skills, Oral Presentation Skills, People Skills, Team work"
             },
             {
                 _id:8,
@@ -347,7 +350,7 @@ angular.module('dimizasCVApp')
             },
             {
                 _id:9,
-                skill: "Foreign Languages : <strong>Fluent English.</strong>"
+                skill: "Foreign Languages : Fluent English."
             }
         ];
 
@@ -373,16 +376,16 @@ angular.module('dimizasCVApp')
             {
                 _id:0,
                 name: {
-                    title:"<strong>Scholarship</strong> from the Foundation for Research and Technology – Hellas (<strong>FORTH</strong>) – Heraklion Crete. - M.Sc. in Microelectronics & Optoelectronics. (September 2008 – May 2010)",
+                    title:"Scholarship from the Foundation for Research and Technology – Hellas (FORTH) – Heraklion Crete. - M.Sc. in Microelectronics & Optoelectronics. (September 2008 – May 2010)",
                     list:[]
                 }
             },
             {
                 _id:1,
                 name: {
-                    title:"<strong>Posters</strong>",
-                    list:["C. Dimizas , P. Dimitrakis , G. Deligeorgis , E. Iliopoulos <strong>17th European Molecular Beam Epitaxy Workshop (Euro-MBE 2013) Poster</strong> - “Double barrier AlGaN/GaN (0001) resonant tunneling diodes: The effects of polarization fields”",
-                        "G. Deligeorgis, P. Dimitrakis, C. Dimizas, A. Kostopoulos, G. Konstantinidis, R. Normand and E. Iliopoulos, <strong>“Negative differential resistance and charge trapping phenomena in (0001) Al(Ga)N/GaN double barrier resonant tunneling diodes”</strong>, Micro&Nano 2010, Athens, Greece, December 2010."
+                    title:"Posters",
+                    list:["C. Dimizas , P. Dimitrakis , G. Deligeorgis , E. Iliopoulos 17th European Molecular Beam Epitaxy Workshop (Euro-MBE 2013) Poster - “Double barrier AlGaN/GaN (0001) resonant tunneling diodes: The effects of polarization fields”",
+                        "G. Deligeorgis, P. Dimitrakis, C. Dimizas, A. Kostopoulos, G. Konstantinidis, R. Normand and E. Iliopoulos, “Negative differential resistance and charge trapping phenomena in (0001) Al(Ga)N/GaN double barrier resonant tunneling diodes”, Micro&Nano 2010, Athens, Greece, December 2010."
                     ]
                 }
             }
@@ -410,7 +413,7 @@ angular.module('dimizasCVApp')
         var interestsList = [
             {
                 _id:0,
-                name: "Funding member of <strong>GRIoT</strong> team, member of The Things Network community. Our <strong>main goal</strong> is to contribute to the community by adding a gateway which increases the range of the <strong>LoraWAN network</strong> and to <strong>develop small IoT devices</strong> which utilize this network in order to exchange information.",
+                name: "Funding member of GRIoT team, member of The Things Network community. Our main goal is to contribute to the community by adding a gateway which increases the range of the LoraWAN network and to develop small IoT devices which utilize this network in order to exchange information.",
                 url:"http://thethingsnetwork.org/"
             },
             {
@@ -442,7 +445,7 @@ angular.module('dimizasCVApp')
         var myProjectsList = [
             {
                 _id:0,
-                description: "Music for people with hearing problems pet project. Experimental part using <strong>Arduino platform</strong>. Software part using <strong>Java</strong> programming and <strong>Fourier transform</strong>."
+                description: "Music for people with hearing problems pet project. Experimental part using Arduino platform. Software part using Java programming and Fourier transform."
             }
 
         ];

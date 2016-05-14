@@ -165,7 +165,12 @@ ul.nav.navbar-nav li {
     border: 1px solid rgba(0,0,0,.3);
     border-radius: 50%;
 }
-
+.home-card-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+}
 .home-box div:first-child {
     /*position: relative;*/
     /*top: 50%;*/

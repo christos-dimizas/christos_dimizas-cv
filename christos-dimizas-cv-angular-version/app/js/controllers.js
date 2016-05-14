@@ -6,24 +6,24 @@ angular.module('dimizasCVApp')
 
     // HOME PAGE
     .controller('IndexController',
-        ['workExpFactory', 'academicExpFactory', 'educationFactory', 'courseworkFactory',
-            'skillsFactory', 'achievementsFactory', 'interestsFactory', 'myProjectsFactory',
-        function($scope, $location, $anchorScroll,workExpFactory, academicExpFactory, educationFactory, courseworkFactory,
-                 skillsFactory, achievementsFactory, interestsFactory, myProjectsFactory) {
+        ['$scope', 'workExpFactory', 'academicExpFactory', 'educationFactory', 'courseworkFactory',
+            'skillsFactory', 'achievementsFactory', 'interestsFactory', 'myProjectsFactory', "$location", "$anchorScroll",
+        function($scope, workExpFactory, academicExpFactory, educationFactory, courseworkFactory,
+                 skillsFactory, achievementsFactory, interestsFactory, myProjectsFactory, $location, $anchorScroll) {
 
             $scope.scrollTo = function(id) {
                 $location.hash(id);
                 $anchorScroll();
             };
 
-            $scope.workExperience = workExpFactory.getWorks();
-            $scope.academicExperiences = academicExpFactory.getAcademics();
-            $scope.education = educationFactory.getEducations();
+            $scope.works = workExpFactory.getWorks();
+            $scope.academics = academicExpFactory.getAcademics();
+            $scope.educations = educationFactory.getEducations();
             $scope.courseworks = courseworkFactory.getCourseworks();
             $scope.skills = skillsFactory.getSkills();
             $scope.achievements = achievementsFactory.getAchievements();
             $scope.interests = interestsFactory.getInterests();
-            $scope.interests = myProjectsFactory.getMyProjects();
+            $scope.myProjects = myProjectsFactory.getMyProjects();
     }])
 
     // WORK EXPERIENCE

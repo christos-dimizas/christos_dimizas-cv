@@ -1,85 +1,169 @@
 <!------ LANDING PAGE --------------------------->
 <section id="landingPage" class="">
     <div class="container no-padding-L-R home-background">
-        <!-- image -->
+
         <div class="row">
-            <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
+            <!-- WORK EXPERIENCE -->
+            <div class=" col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-briefcase section-left-icon green-background"></i>
-                    <span class="bold padding-15px">WORK EXPERIENCE</span>
+                    <span class="bold padding-15px white-font">WORK EXPERIENCE</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="work in works ">
+                        <div class="media-left media-middle">
+                            <img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">{{work.workName}}</h4>
+                            <p class="text-right">{{work.companyName}}</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
+
+            <!-- ACADEMIC EXPERIENCE -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-bar-chart  section-left-icon lighter-green-background"></i>
-                    <span class="bold padding-15px">ACADEMIC EXPERIENCE</span>
+                    <span class="bold padding-15px white-font">ACADEMIC EXPERIENCE</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="academic in academics">
+                        <!--<div class="media-left media-middle">-->
+                            <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <h4 class="media-heading">{{academic.academicTitle}}</h4>
+                            <!--<p class="text-right">{{academic.companyName}}</p>-->
+                        </div>
+                    </li>
+                </ul>
             </div>
+
+            <!-- EDUCATION -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-graduation-cap section-left-icon yellow-background"></i>
-                    <span class="bold padding-15px">EDUCATION</span>
+                    <span class="bold padding-15px white-font">EDUCATION</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="education in educations">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <h4 class="media-heading">{{education.educationTitle}}</h4>
+                            <p class="text-right">{{education.university}}</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
+
         <div class="row margin-top-100px">
+
+            <!-- COURSEWORK -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-book section-left-icon light-green-background"></i>
-                    <span class="bold padding-15px">COURSEWORK</span>
+                    <span class="bold padding-15px white-font">COURSEWORK</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="coursework in courseworks | limitTo:3">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <h4 class="media-heading">{{coursework.title}}</h4>
+                            <p class="text-right">{{coursework.provider}}</p>
+                        </div>
+                    </li>
+                    <li class="">More</li>
+                </ul>
             </div>
+
+            <!-- TECHNICAL SKILLS -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-list section-left-icon red-background"></i>
-                    <span class="bold padding-15px">TECHNICAL SKILLS</span>
+                    <span class="bold padding-15px white-font">TECHNICAL SKILLS</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="skill in skills | limitTo:3">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <p class="media-heading">{{skill.skill}}</p>
+                        </div>
+                    </li>
+                    <li class="">More</li>
+                </ul>
             </div>
+
+            <!-- ACHIEVEMENTS -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-trophy section-left-icon green-background"></i>
-                    <span class="bold padding-15px">ACHIEVEMENTS</span>
+                    <span class="bold padding-15px white-font">ACHIEVEMENTS</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="achievement in achievements | limitTo:1">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <p class="media-heading">{{achievement.name.title}}</p>
+                        </div>
+                    </li>
+                    <li class="">More</li>
+                </ul>
             </div>
         </div>
 
         <div class="row margin-top-100px">
+
+            <!-- PERSONAL PROJECTS -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-puzzle-piece  section-left-icon green-background"></i>
-                    <span class="bold padding-15px">PERSONAL PROJECTS</span>
+                    <span class="bold padding-15px white-font">PERSONAL PROJECTS</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="myProject in myProjects | limitTo:1">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <p class="media-heading">{{myProject.description}}</p>
+                        </div>
+                    </li>
+                    <!--<li class="">More</li>-->
+                </ul>
             </div>
+
+            <!-- INTERESTS & HOBBIES -->
             <div class="home-box col-xs-12 col-sm-3 no-padding-L-R margin-right-30px landingPage-card">
                 <h5 class="no-margin border-bottom-grey">
                     <i class="fa fa-rocket section-left-icon blue-background"></i>
-                    <span class="bold padding-15px">INTERESTS & HOBBIES</span>
+                    <span class="bold padding-15px white-font">INTERESTS & HOBBIES</span>
                 </h5>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
-                <p>TEXT HERE</p>
+                <ul class="media-list tab-pane fade in active padding-L-R-15px">
+                    <li class="media border-bottom-grey padding-top-bottom-10px" ng-repeat="interest in interests | limitTo:1">
+                        <!--<div class="media-left media-middle">-->
+                        <!--<img class="media-object img-thumbnail home-card-img" ng-src={{work.companyImage}} alt="work experience image">-->
+                        <!--</div>-->
+                        <div class="media-body">
+                            <p class="media-heading">{{interest.name}}</p>
+                        </div>
+                    </li>
+                    <li class="">More</li>
+                </ul>
             </div>
         </div>
     </div>
