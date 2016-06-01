@@ -113,9 +113,13 @@ a{
 .home-box div:first-child {
     position: relative;
     top: 50%;
+    /* for chrome & safari*/
     -webkit-transform: translate(0,-50%);
+    /* for firefox */
     -moz-transform: translate(0,-50%);
+    /* for internet explore */
     -ms-transform: translate(0,-50%);
+    /* for opera */
     -o-transform: translate(0,-50%);
     transform: translate(0,-50%);
     text-align: center;

@@ -74,7 +74,7 @@ $('#contact-anchor').on('click', function(){
 */
 
 $('#work_expand').on('click', function(){
-    var toBeShown = $(this).closest('h3').closest('.title-collapse').closest('.container').next('.container').find('.row.row-content')
+    var toBeShown = $(this).closest('h3').closest('.title-collapse').closest('.container').next('.container').find('.row.row-content');
     $(this).find('span.bold').toggleClass('clicked-title green-background');
     toBeShown.slideToggle(500, function(){
         if(toBeShown.is(":visible")){
@@ -143,6 +143,8 @@ $('#show_more').on('click', function(){
     }
 });
 
+
+// ANIMATE THE ELEMENTS ACCORDING TO SCROLLING & ELEMENT POSITION FROM TOP OF THE WINDOW
 $(function(){
     var $elems = $('.animateblock');
     var winheight = $(window).height();
@@ -192,6 +194,7 @@ $(document).ready(function() {
     });
 
     $('.back-to-top').click(function(event) {
+        // stops the default action of an element from happening.
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
         return false;

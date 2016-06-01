@@ -7,8 +7,8 @@
 .bold{
     font-weight: bold;
 }
-h3{
-    color: #ffffff;
+h3 {
+    color: rgba(0, 0, 0, 0.43);
     letter-spacing: 1px;
 }
 html, body{
@@ -292,6 +292,9 @@ ul.nav.navbar-nav li {
 
 .back-to-top i {
     font-size: 60px;
+}
+.row{
+    padding: 0px 20px;
 }
 
 .row-content {
